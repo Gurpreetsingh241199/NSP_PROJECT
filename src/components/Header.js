@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from '../assets/logo.png';
+import logo2 from '../assets/logo2.png';  // Ensure this path is correct
+import logo3 from '../assets/logo3.png';  // Ensure this path is correct
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -37,6 +39,10 @@ const Header = () => {
           )}
         </div>
       </nav>
+      <div className="extra-logos">
+        <img src={logo2} alt="Extra Logo 1" className="extra-logo" />
+        <img src={logo3} alt="Extra Logo 2" className="extra-logo" />
+      </div>
     </header>
   );
 };
