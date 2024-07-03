@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'; // Adjusted path for App.css
+import '../App.css';
 import Header from './Header';
 import Banner from './Banner';
 import LatestNews from './LatestNews';

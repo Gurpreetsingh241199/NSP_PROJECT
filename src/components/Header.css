@@ -13,14 +13,14 @@
 .title {
   flex-grow: 1;
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  transform: translateX(-15%); /* Shift the navigation links 15% to the left */
+  transform: translateX(-15%);
 }
 
 .nav a {
@@ -80,8 +80,8 @@
   .nav {
     flex-direction: column;
     align-items: flex-start;
-    transform: translateX(0); /* Reset shift for smaller screens */
-  }
+    transform: translateX(0);
+    }
 
   .nav a {
     margin: 5px 0;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Header.css';
 import logo from '../assets/logo.png';
-import logo2 from '../assets/logo2.png';  // Ensure this path is correct
-import logo3 from '../assets/logo3.png';  // Ensure this path is correct
+import logo2 from '../assets/logo2.png';
+import logo3 from '../assets/logo3.png';
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

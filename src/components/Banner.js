@@ -1,12 +1,23 @@
 import React from 'react';
 import './Banner.css';
+import bannerImage1 from '../assets/banner1.png'; 
+import bannerImage2 from '../assets/banner2.png'; 
+import bannerImage3 from '../assets/banner3.png'; 
 
 const Banner = () => {
   return (
     <div className="banner">
-      <h1>Welcome to the National Scholarship Portal</h1>
-      <p>Your gateway to numerous scholarships</p>
-     {/* <img src="https://via.placeholder.com/1500x520" alt="Banner" />  */}
+      <div className="banner-slides">
+        <div className="slide">
+          <img src={bannerImage1} alt="Banner 1" />
+        </div>
+        <div className="slide">
+          <img src={bannerImage2} alt="Banner 2" />
+        </div>
+        <div className="slide">
+          <img src={bannerImage3} alt="Banner 3" />
+        </div>
+      </div>
     </div>
   );
 };
